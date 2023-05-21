@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,600;0,800;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="./ICON55.jpg">
+    <title>Online Library</title>
+</head>
+
+<body>
+    <div class="plan">
+        <ul class="list">
+            <li class="home"><a href="#">Home</a></li>
+            <li class="ls"><a href="#Services">Services</a></li>
+            <li class="ls"><a href="#About">About</a></li>
+            <li class="ls"><a href="#Contact">Contact</a></li>
+
+            <li class="ls"><a href="login.html">Login</a>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="landing">
+        <div class="intro">
+            <h1>Welcome To Our Library</h1>
+            <p>Books can be a source of great relaxation , they can take you to places you may never have been otherwise
+                .</p>
+        </div>
+    </div>
+    <div class="features">
+        <div class="container">
+            <div class="feat">
+                <i class="fas fa-globe"></i>
+                <h3>Nonfiction Books</h3>
+
+                <p>Nonfiction books contain factual information,such as biographies and history books .</p>
+            </div>
+            <div class="feat">
+                <i class="fas fa-book-open"></i>
+                <h3>Fiction Books</h3>
+                <p>Fiction books contain a story that the author made up ,such as remonace or chlidrn’s books .</p>
+            </div>
+        </div>
+    </div>
+    <!-- start service -->
+    <div class="sevices" id="Services">
+        <div class="container">
+            <h2 class="special">Services</h2>
+            <p>Don’t be busy,be productive</p>
+            <div class="content">
+                <div class="col">
+
+                    <div class="srv">
+
+                        <i class="fas fa-shipping-fast"></i>
+                        <div class="text">
+                            <h3>Book Delivrey</h3>
+                            <p>Make sure you request your books by 9.00 to get them on the same day .</p>
+                        </div>
+                    </div>
+                    <div class="srv">
+
+                        <i class="fas fa-book"></i>
+                        <div class="text">
+                            <h3>Borrowing and renewals</h3>
+                            <p>Borrowed books remain on a user's loan record and are subject to fines until they have
+                                been checked in at the Loan Desk.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="srv">
+                        <i class="fas fa-laptop"></i>
+                        <div class="text">
+                            <h3>Computer in the library</h3>
+                            <p>There are more than 50 computers in the Library, All Library working spaces and tables
+                                have a fixed LAN cable for connecting your laptop to the Internet. You can also connect
+                                to the EUI-WiFi .</p>
+                        </div>
+                    </div>
+                    <div class="srv">
+                        <i class="fas fa-wifi"></i>
+                        <div class="text">
+                            <h3>InterLibrary Loan</h3>
+                            <p>The Interlibrary Loan service provides EUI members with access to documents that are not
+                                available in the EUI Library, or through its electronic resources .</p>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- end service -->
+    <!-- start about -->
+    <div class="about" id="About">
+        <div class="container">
+            <h2 class="special">About</h2>
+            <div class="slider">
+        </div>
+    </div>
+    <!-- end about -->
+
+    <!-- start contact -->
+
+    <div class="contact" id="Contact">
+        <div class="container">
+            <h2 class="special">Contact</h2>
+            <p>We are born to create </p>
+            <div class="info">
+                <p class="label"></p>
+                <a href="senanhusseyn44@gmail.com" class="link">Gmail: senanhusseyn44
+                @mail.com</a>
+                <a href="https://www.linkedin.com/in/s%C9%99nan-h%C3%BCseynov-1a2739233/" class="link">Linkedin:Sənan Hüseynov</a>
+                <a href="" class="link">Phone:+994 70 888 56 91</a>
+                <div class="social">
+                    Find us on social network
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact -->
+
+
+    <script>
+        let Mode = localStorage.getItem("Mode");
+        document.body.bgColor = Mode;
+
+        let font = localStorage.getItem("size");
+        document.body.style.fontSize = font;
+
+        let fontstyle = localStorage.getItem("font");
+        document.body.style.fontStyle = fontstyle;
+    </script>
+
+</body>
+
+</html>
